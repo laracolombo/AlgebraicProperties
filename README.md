@@ -14,3 +14,7 @@ The required outcome of the project was to implement an algorithm for testing ex
 4. Test the equality that Ai = Bi for i = 1, 2, 3, ...., 10
 5. Considering a number of threads T > 10, design a second version of the algorithm that uses multiprocessing to speedup the execution.
 6. NB: as the number of threads is > 10, assigning each pair of matrices to a single process was not considered a valid solution, as some processes wouldn't have been used.
+
+## LIBRARIES
+
+I found a solution to the problem taking advatange of the ThreadPool module from the Multiprocessing library.  
